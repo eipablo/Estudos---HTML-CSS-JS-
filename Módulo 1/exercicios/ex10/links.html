@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links </title>
+</head>
+<body>
+    <h1>Usando links externos</h1>
+    <p>Você pode acessar meu repositório publico no GitHub clicando <a href="https://www.github.com/eipablo" target="_blank" rel="external">aqui!!</a></p>
+    <p>Para fazer o link abrir em outra guia utiliza-se o atributo TARGET + _blank </p>
+
+    <h1>Usando links internos</h1>
+    <p>está é a primeira pagina do site se quiser pode acessar a minha segunda pagina clicando <a href="pg02.html" rel="next">aqui!!</a></p>
+    <p>Clique <a href="pg03/pag03.html">aqui</a> para acessar nossa terceira pagina</p>
+
+    <h2><strong>rel="nofollow"</strong></h2>
+    <ol>
+        <li><b>O que faz?</b></li>
+        <ul>
+            <li>Indica aos mecanismos de busca que não devem "segui-lo" para fins de ranking. Ou seja, o link não passa "link juice" (valor de SEO) para o site vinculado.</li>
+        </ul>
+        <li><b>Quando usar?</b></li>
+        <ul>
+            <li>Em links patrocinados ou anúncios (rel="sponsored nofollow").</li>
+            <li>Em comentários de usuários em blogs (para evitar spam).</li>
+            <li>Em links não confiáveis ou que você não endossa.</li>
+        </ul>
+    </ol>
+
+
+    <div>
+        <h2>Links para download!!</h2>
+        <ul>
+            <li>Clique <a href="livros/documento.pdf" download="documento.pdf" type="application/pdf">aqui</a> para baixar o link .pdf</li>
+            <li>Clique <a href="livros/documento.rar">aqui</a> para baixar o link .rar</li>
+            <li>Clique <a href="livros/documento.zip">aqui</a> para baixar o link .zip</li>
+        </ul>
+        <p>Caso colocar o link interno diretamente não esteja funcionando, você pode usar os seguintes atributos dentro da rag A: download="documento.pdf" type="application/pdf"</p>
+        <p><mark><b>clique <a href="https://www.iana.org/assignments/media-types/media-types.xhtml">aqui</a> para ter acesso ao link dos tipos de applications</b></mark></p>
+    </div>
+    
+    <br>
+
+    <p>Está pagina é um oferecimento de <a href="https://www.hostnet.com.br" target="_blank" rel="sponsored nofollow">Hostnet</a></p>
+</body>
+</html>
