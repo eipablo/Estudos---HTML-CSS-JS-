@@ -1,0 +1,66 @@
+    body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: black;
+    color: white;
+    }
+
+    .centered-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    }
+
+    .image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto); /* cria 2 colunas com largura automatica*/
+    gap: 30px; /* Aumentei o gap para o efeito de hover */
+    margin-top: 30px;
+    }
+
+    .image-grid a {
+    display: inline-block;
+    transition: transform 0.3s ease; /* Suaviza a animação */
+    }
+
+    .image-grid img {
+    width: 200px;
+    height: auto;
+    object-fit: cover; /* garante que a imagem cubra todo o espaço sem distorcer*/
+    border-radius: 8px; /* cantos arredondados */
+    box-shadow: 0 4px 8px rgba(153, 51, 153, 0.5); /* Sombra roxa */
+    transition: all 0.3s ease; /* Transição para todos os efeitos */
+    }
+
+  /* Efeito de hover */
+    .image-grid a:hover img {
+    transform: scale(1.1); /* Aumenta em 10% a imagem*/
+    box-shadow: 0 8px 16px rgba(153, 51, 153, 0.5); /* aumenta a sombra */
+    z-index: 10; /* garante com que a imagem aumentada fique por cima das demais*/
+    }
+
+  /* manter proporções ao redimensionar */
+    .image-grid a {
+    transform-origin: center;
+    }
+
+    footer{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: small;
+    }
+
+    footer a{
+        text-decoration: none;
+        color: white;
+    }
+
+    footer a:hover{
+    color: blueviolet;
+    font-size: 15px;
+    }
