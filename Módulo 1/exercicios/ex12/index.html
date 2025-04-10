@@ -6,6 +6,20 @@
     <title>Vídeos</title>
 </head>
 <body>
-    <h1>Reproduzindo Vídeos</h1>
+    <h1>Reproduzindo Vídeos com hospedagem interna em HTML5</h1>
+    <video poster="img/limoes-capa.png" controls width="560" height="315" autoplay loop>
+        <source src="vid/meu-video.mp4" type="video/mp4">
+        <source src="vid/meu-video.m4v" type="video/mp4">
+        <source src="vid/meu-video.ogv" type="video/ogv">
+        <source src="vid/meu-video.webm" type="video/webm">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos. </p>
+    </video>
+
+    <h1>Agora vamos utilizar a hospedagem externa!</h1>
+    <p>Youtube: </p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/OzUnqQk4eOg?si=BDQ5RziQVmMX1rO_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <p>Vimeo:</p>
+    <iframe src="https://player.vimeo.com/video/29315013?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="Animation Reel"></iframe>
 </body>
 </html>
