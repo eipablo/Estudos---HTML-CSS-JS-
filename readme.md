@@ -3,7 +3,7 @@ Repositório com meus exercícios e desafios de aprendizado em HTML, CSS e JavaS
 
 # 📂 Estrutura do Repositório
 
-## � Módulo 1 
+## 📌 Módulo 1 
 *Conteúdo introdutório do curso*
 Pasta        | Descrição                              |
 -------------|----------------------------------------|
