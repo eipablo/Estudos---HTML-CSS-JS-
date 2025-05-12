@@ -1,0 +1,15 @@
+
+
+div{
+    background-color: lightblue;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+div:hover{
+    background-color: rgba(139, 185, 201, 0.781);
+    cursor: pointer;
+}
