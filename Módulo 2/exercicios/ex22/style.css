@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+    
+.box {
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    border: 5px solid #333;
+    margin-bottom: 30px;
+    background-color: #4caf50;
+    color: white;
+    font-weight: bold;
+}
+
+  /* Comportamento padrão (content-box) */
+.content-box {
+    box-sizing: content-box;
+}
+
+  /* Comportamento border-box (mais usado em layouts modernos) */
+.border-box {
+    box-sizing: border-box;
+    background-color: #2196f3;
+}
