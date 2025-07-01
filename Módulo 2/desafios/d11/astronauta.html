@@ -1,29 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Astronaura d11</title>
-</head>
-<style>
-    *{
-        margin: 0px;
-        padding: 0px;
+  </head>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-image: url("img/espaco.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
+      min-height: 100vh;
     }
-    body{
-        background-image: url(img/espaco.jpg);
-        margin: auto;
-        min-width: 3000px;
-        min-height: 1200px;
+
+    .container {
+      position: relative;
+      height: 100vh;
     }
-    img{
-        max-width: 500px;
-        margin: auto;
-        margin-top: 150px;
-        display: flex;
+
+    .container img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      max-width: 100%;
+      max-height: 100%;
     }
-</style>
-<body>
-    <img src="img/astronauta.png" alt="">
-</body>
+  </style>
+  <body>
+    <div class="container">
+        <img src="img/astronauta.png" alt="" />
+    </div>
+  </body>
 </html>
